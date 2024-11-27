@@ -1,0 +1,9 @@
+{
+    "title": "a blog with zero posts",
+    "shortTitle": "hello world, this is a blog",
+    "subtitle": "the first post of a blog with zero posts",
+    "author": "Gian Luca Pecile",
+    "date": "2024-11-27T00:00:00.000Z",
+    "slug": "hello-world",
+    "tags": ["expo", "blog"]
+}

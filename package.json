@@ -1,7 +1,7 @@
 {
     "name": "lugia",
     "main": "index.js",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "scripts": {
         "dev": "expo start -c --ios",
         "dev:web": "expo start -c --web",
@@ -13,14 +13,16 @@
         "postinstall": "npx tailwindcss -i ./global.css -o ./node_modules/.cache/nativewind/global.css"
     },
     "dependencies": {
+        "@bacons/mdx": "^0.4.0",
         "@react-native-async-storage/async-storage": "1.23.1",
         "@react-navigation/native": "^7.0.0",
         "@rn-primitives/avatar": "~1.1.0",
         "@rn-primitives/portal": "~1.1.0",
         "@rn-primitives/progress": "~1.1.0",
-        "@rn-primitives/slot": "~1.1.0",
+        "@rn-primitives/slot": "^1.1.0",
         "@rn-primitives/tooltip": "~1.1.0",
-        "@rn-primitives/types": "~1.1.0",
+        "@rn-primitives/types": "^1.1.0",
+        "caniuse-lite": "^1.0.30001684",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.0",
         "expo": "^52.0.7",

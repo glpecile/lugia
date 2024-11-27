@@ -1,7 +1,7 @@
 import { View } from "react-native";
 import { H1, P } from "../ui/typography";
 // biome-ignore lint/style/useImportType: recursive error
-import { Fragment, PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 
 type TitleProps = {
     date: string;

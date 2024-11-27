@@ -2,6 +2,7 @@ import { Stack, useLocalSearchParams } from "expo-router";
 import { Fragment } from "react";
 import { View } from "react-native";
 import { MarkdownTheme } from "~/components/blog/markdown-theme";
+import { ThemeToggle } from "~/components/ThemeToggle";
 import { Text } from "~/components/ui/text";
 import { useBlogData } from "~/hooks/use-blog-data";
 
@@ -20,6 +21,7 @@ export default function Page() {
             <Stack.Screen
                 options={{
                     title: info.title,
+                    headerRight: () => <ThemeToggle />,
                 }}
             />
 

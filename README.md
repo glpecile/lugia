@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# Welcome to Lugia 🐉
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) project created using [rnreusables](https://rnr-docs.vercel.app/getting-started/introduction/) and [@bacons/mdx](https://github.com/EvanBacon/expo-mdx).
 
-## Get started
+## Get started 🚀
 
 1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    bun install
+    ```
 
 2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+    ```bash
+     bun run web # or for mobile
+     # bun run ios
+     # bun run android
+    ```
 
-In the output, you'll find options to open the app in a
+This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
+## Add a post ✍️
 
 When you're ready, run:
 
 ```bash
-npm run reset-project
+bun run add-post
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+You'll be prompted the following questions:
 
-## Learn more
+```plaintext
+Enter blog post title:
+Enter short title:
+Enter subtitle:
+Enter slug (or press enter for auto-generated):
+Enter tags (comma-separated):
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+This will then create a new `index.mdx` post inside the **blog** directory where you can edit it in markdown format.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Next steps 📝
 
-## Join the community
+-   [ ] Dogfood
+-   [ ] Add pre-commit linting
+-   [ ] Add search
+-   [ ] Add pagination
+-   [ ] Add comments
+-   [ ] Add sub-domain
 
-Join our community of developers creating universal apps.
+## Acknowledgements 🙏
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-   [Evan Bacon](https://bsky.app/profile/bacon.bsky.social) for his amazing [open source blog](https://github.com/EvanBacon/evanbacon.dev) and contributions.
+-   [Zach Nugent](https://bsky.app/profile/mrzachnugent.com) without their work on [rnreusables](https://rnr-docs.vercel.app/getting-started/introduction/) this project wouldn't be possible.
+-   [Dan Stepanov](https://bsky.app/profile/onlydans.gg) and [Mark Lawlor](https://bsky.app/profile/marklawlor.io) for their work on [nativewind](https://www.nativewind.dev/).

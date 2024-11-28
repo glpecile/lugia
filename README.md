@@ -62,5 +62,5 @@ This will then create a new `index.mdx` post inside the **blog** directory where
 
 -   [Evan Bacon](https://bsky.app/profile/bacon.bsky.social) for his amazing [open source blog](https://github.com/EvanBacon/evanbacon.dev) and contributions.
 -   [Zach Nugent](https://bsky.app/profile/mrzachnugent.com) without their work on [rnreusables](https://rnr-docs.vercel.app/getting-started/introduction/) this project wouldn't be possible.
--   [Dan Stepanov](https://bsky.app/profile/onlydans.gg) and [Mark Lawlor](https://bsky.app/profile/marklawlor.io) for their work on [nativewind](https://www.nativewind.dev/).
+-   [Dan Stepanov](https://bsky.app/profile/onlydans.gg) and [Mark Lawlor](https://bsky.app/profile/marklawlor.bsky.social) for their work on [nativewind](https://www.nativewind.dev/).
 -   [Samuel Newman](https://bsky.app/profile/samuel.bsky.team) for the [first blog post idea](https://mozzius-dev.vercel.app/post/3l772nawzvw2k).

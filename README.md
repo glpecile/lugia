@@ -2,23 +2,29 @@
 
 This is an [Expo](https://expo.dev) project created using [rnreusables](https://rnr-docs.vercel.app/getting-started/introduction/) and [@bacons/mdx](https://github.com/EvanBacon/expo-mdx).
 
-## Get started 🚀
+## Run locally 🚀
 
-1. Install dependencies
+1. Install [Bun](https://bun.sh/docs/installation).
+
+2. Clone the repo
+
+    ```bash
+    git clone https://github.com/glpecile/lugia.git
+    ```
+
+3. Install dependencies
 
     ```bash
     bun install
     ```
 
-2. Start the app
+4. Start the app
 
     ```bash
      bun run web # or for mobile
      # bun run ios
      # bun run android
     ```
-
-This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
 ## Add a post ✍️
 

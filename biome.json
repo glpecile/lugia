@@ -1,0 +1,69 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+    "vcs": {
+        "enabled": false,
+        "clientKind": "git",
+        "useIgnoreFile": false
+    },
+    "formatter": {
+        "enabled": true,
+        "formatWithErrors": false,
+        "indentStyle": "tab",
+        "indentWidth": 4,
+        "lineWidth": 80,
+        "lineEnding": "lf",
+        "ignore": [
+            "node_modules",
+            "dist",
+            "out",
+            ".next",
+            "public",
+            "build",
+            "coverage",
+            ".expo",
+            ".expo-shared",
+            ".expo-shared@*",
+            ".vercel"
+        ]
+    },
+    "organizeImports": {
+        "enabled": true
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true,
+            "nursery": { "useSortedClasses": "warn" }
+        },
+        "ignore": [
+            "node_modules",
+            "dist",
+            "out",
+            ".next",
+            "public",
+            "build",
+            "coverage",
+            ".expo",
+            ".expo-shared",
+            ".expo-shared@*",
+            ".vercel"
+        ]
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "double",
+            "jsxQuoteStyle": "double",
+            "semicolons": "always"
+        }
+    },
+    "files": {
+        "ignore": [
+            "**/node_modules",
+            "CHANGELOG.md",
+            "bun.lockb",
+            ".expo",
+            ".vercel",
+            "out"
+        ]
+    }
+}

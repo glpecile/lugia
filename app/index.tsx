@@ -16,7 +16,7 @@ export default function Screen() {
         <View className="flex-1 justify-start items-center gap-5 p-3.5 bg-secondary/30">
             {posts.map((item) => (
                 <Link
-                    // @ts-expect-error: the date is always a string
+                    // @ts-expect-error: the href is always a string
                     href={`${item.href}`}
                     key={item.date}
                     className="w-full flex items-center justify-center"

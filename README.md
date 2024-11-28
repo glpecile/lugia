@@ -1,6 +1,8 @@
-# Welcome to Lugia 🐉
+# Lugia 🐉
 
 This is an [Expo](https://expo.dev) project created using [rnreusables](https://rnr-docs.vercel.app/getting-started/introduction/) and [@bacons/mdx](https://github.com/EvanBacon/expo-mdx).
+
+![demo](https://github.com/user-attachments/assets/1e1845bf-90fa-40ff-93d9-34125c40fa4f)
 
 ## Run locally 🚀
 

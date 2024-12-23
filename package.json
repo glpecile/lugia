@@ -27,7 +27,7 @@
         "caniuse-lite": "^1.0.30001690",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.0",
-        "expo": "^52.0.4",
+        "expo": "^52.0.7",
         "expo-dev-client": "~5.0.6",
         "expo-linking": "~7.0.2",
         "expo-navigation-bar": "~4.0.3",

@@ -24,7 +24,7 @@
         "@rn-primitives/slot": "^1.1.0",
         "@rn-primitives/tooltip": "~1.1.0",
         "@rn-primitives/types": "^1.1.0",
-        "caniuse-lite": "^1.0.30001684",
+        "caniuse-lite": "^1.0.30001690",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.0",
         "expo": "^52.0.4",
@@ -56,5 +56,25 @@
         "@types/react": "~18.3.12",
         "typescript": "^5.3.3"
     },
-    "private": true
+    "private": true,
+    "expo": {
+        "doctor": {
+            "reactNativeDirectoryCheck": {
+                "exclude": [
+                    "lucide-react-native",
+                    "@bacons/mdx",
+                    "@rn-primitives/avatar",
+                    "@rn-primitives/portal",
+                    "@rn-primitives/progress",
+                    "@rn-primitives/slot",
+                    "@rn-primitives/tooltip",
+                    "@rn-primitives/types",
+                    "caniuse-lite",
+                    "class-variance-authority",
+                    "tailwindcss",
+                    "tailwindcss-animate"
+                ]
+            }
+        }
+    }
 }

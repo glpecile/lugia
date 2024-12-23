@@ -15,7 +15,7 @@
         "android": {
             "adaptiveIcon": {
                 "foregroundImage": "./assets/images/adaptive-icon/foreground.png",
-                "backgroundColor": "./assets/images/adaptive-icon/background.png"
+                "backgroundColor": "#ffffff"
             },
             "package": "com.glpecile.lugia"
         },
